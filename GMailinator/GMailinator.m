@@ -7,12 +7,15 @@ NSBundle *GetGMailinatorBundle(void) {
     return [NSBundle bundleForClass:[GMailinator class]];
 }
 
+SearchManager *_sm;
+
 @implementation GMailinator
 
 + (void)initialize {
     [GMailinator registerBundle];
     SearchManager *sm = [[SearchManager alloc] init];
     [sm setContextMenu:nil];
+    _sm = sm;
     objc_setAssociatedObject(GetGMailinatorBundle(), @"searchManager", sm,
                              OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
@@ -123,6 +126,10 @@ NSBundle *GetGMailinatorBundle(void) {
     case 'f': {
         [messageViewer performSelector:@selector(forwardMessage:)
                             withObject:nil];
+        break;
+    }
+    case 'l': {
+        [_sm moveToFolder:nil];
         break;
     }
     case 'o': {
