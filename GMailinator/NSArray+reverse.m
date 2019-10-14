@@ -10,8 +10,7 @@
 
 @implementation NSArray (reverse)
 
-- (NSArray *)reversed
-{
+- (NSArray *)reversed {
     return [[self reverseObjectEnumerator] allObjects];
 }
 
