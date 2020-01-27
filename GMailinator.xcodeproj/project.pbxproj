@@ -23,7 +23,7 @@
 		239B1F2217B6FD16002CEA1B /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = "/tmp/GMailinator";
+			dstPath = /tmp/GMailinator;
 			dstSubfolderSpec = 0;
 			files = (
 				239B1F2317B6FD2F002CEA1B /* GMailinator.mailbundle in CopyFiles */,
@@ -152,15 +152,16 @@
 		499015D11615FE5300991F6C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1000;
+				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = nompute;
 			};
 			buildConfigurationList = 499015D41615FE5300991F6C /* Build configuration list for PBXProject "GMailinator" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 499015CF1615FE5300991F6C;
 			productRefGroup = 499015DB1615FE5300991F6C /* Products */;
@@ -220,6 +221,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -269,6 +271,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -315,6 +318,7 @@
 				GCC_PREFIX_HEADER = "GMailinator/GMailinator-Prefix.pch";
 				INFOPLIST_FILE = GMailinator/Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Mail/Bundles";
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nompute.gmailinator.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = GMailinator;
 				WRAPPER_EXTENSION = mailbundle;
@@ -330,6 +334,7 @@
 				GCC_PREFIX_HEADER = "GMailinator/GMailinator-Prefix.pch";
 				INFOPLIST_FILE = GMailinator/Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Mail/Bundles";
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nompute.gmailinator.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = GMailinator;
 				WRAPPER_EXTENSION = mailbundle;
