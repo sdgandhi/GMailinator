@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2352AA2217BDE44B001006D0 /* NSArray+reverse.m in Sources */ = {isa = PBXBuildFile; fileRef = 2352AA1817BDE44B001006D0 /* NSArray+reverse.m */; };
 		2352AA2317BDE44B001006D0 /* Ranker.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2352AA1A17BDE44B001006D0 /* Ranker.mm */; };
 		2352AA2417BDE44B001006D0 /* SearchManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2352AA1C17BDE44B001006D0 /* SearchManager.m */; };
 		2352AA2617BDE44B001006D0 /* SearchPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = 2352AA1F17BDE44B001006D0 /* SearchPopup.m */; };
@@ -33,9 +32,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2352AA1617BDE44B001006D0 /* Mail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mail.h; sourceTree = "<group>"; };
-		2352AA1717BDE44B001006D0 /* NSArray+reverse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+reverse.h"; sourceTree = "<group>"; };
-		2352AA1817BDE44B001006D0 /* NSArray+reverse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+reverse.m"; sourceTree = "<group>"; };
 		2352AA1917BDE44B001006D0 /* Ranker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ranker.h; sourceTree = "<group>"; };
 		2352AA1A17BDE44B001006D0 /* Ranker.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Ranker.mm; sourceTree = "<group>"; };
 		2352AA1B17BDE44B001006D0 /* SearchManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchManager.h; sourceTree = "<group>"; };
@@ -100,9 +96,6 @@
 			children = (
 				2352AA2B17BE0F25001006D0 /* GMailinator.h */,
 				2352AA2C17BE0F25001006D0 /* GMailinator.m */,
-				2352AA1617BDE44B001006D0 /* Mail.h */,
-				2352AA1717BDE44B001006D0 /* NSArray+reverse.h */,
-				2352AA1817BDE44B001006D0 /* NSArray+reverse.m */,
 				2352AA1917BDE44B001006D0 /* Ranker.h */,
 				2352AA1A17BDE44B001006D0 /* Ranker.mm */,
 				2352AA1B17BDE44B001006D0 /* SearchManager.h */,
@@ -154,6 +147,11 @@
 			attributes = {
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = nompute;
+				TargetAttributes = {
+					499015D91615FE5300991F6C = {
+						LastSwiftMigration = 1150;
+					};
+				};
 			};
 			buildConfigurationList = 499015D41615FE5300991F6C /* Build configuration list for PBXProject "GMailinator" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -206,7 +204,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2352AA2217BDE44B001006D0 /* NSArray+reverse.m in Sources */,
 				2352AA2317BDE44B001006D0 /* Ranker.mm in Sources */,
 				2352AA2417BDE44B001006D0 /* SearchManager.m in Sources */,
 				2352AA2617BDE44B001006D0 /* SearchPopup.m in Sources */,
