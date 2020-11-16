@@ -44,6 +44,12 @@ Tested with Mail for OS X Cataina.
 4. In mail, open Preferences -> General -> Manage Plug-ins, and enable Gmailinator.
 5. You will be prompted to restart Mail
 
+### Add Gatekeeper Exception (Big Sur onwards)
+
+The following command will tell Gatekeeper to allow the plug-in to be enabled:
+
+`spctl --add /tmp/GMailinator/GMailinator.mailbundle`
+
 ## Credits
 
 A lot of this was built with heavy use of of the
