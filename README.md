@@ -7,28 +7,27 @@ Tested with Mail for OS X Cataina.
 
 ## Supported Shortcuts
 
-|  Key   | Action                         |
+| Key    | Action                         |
 | :----: | ------------------------------ |
-|   #    |  Delete                        |
-|   /    |  Mailbox search                |
-|   !    |  Toggle message as Junk        |
-|   a    |  Reply All                     |
-|   c    |  Compose new message           |
-|  e, y  |  Archive                       |
-|   f    |  Forward message               |
-|   G    |  Go to the last message        |
-|   g    |  Go to the first message       |
-|   j    |  Go to next message/thread     |
-|   k    |  Go to previous message/thread |
-|   l    |  Move to folder (opens dialog) |
-|   o    |  Open selected message         |
-|   R    |  Get new mail (Refresh)        |
-|   r    |  Reply                         |
-|   s    |  Flag                          |
-|   u    |  Mark message as read          |
-|   U    |  Mark message as unread        |
-|   v    |  View raw message dialog       |
-|   z    |  Undo                          |
+| #      | Delete                         |
+| /      | Mailbox search                 |
+| !      | Toggle message as Junk         |
+| c      | Compose new message            |
+| e, y   | Archive                        |
+| f      | Forward message                |
+| G      | Go to the last message         |
+| g      | Go to the first message        |
+| j      | Go to next message/thread      |
+| k      | Go to previous message/thread  |
+| l      | Move to folder (opens dialog)  |
+| o      | Open selected message          |
+| R      | Reply All                      |
+| r      | Reply                          |
+| s      | Flag                           |
+| u      | Mark message as read           |
+| U      | Mark message as unread         |
+| v      | View raw message dialog        |
+| z      | Undo                           |
 
 ## How to install
 

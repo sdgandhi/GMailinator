@@ -107,11 +107,6 @@ SearchManager *_sm;
                             withObject:nil];
         break;
     }
-    case 'a': {
-        [messageViewer performSelector:@selector(replyAllMessage:)
-                            withObject:nil];
-        break;
-    }
     case 'c': {
         [messageViewer performSelector:@selector(showComposeWindow:)
                             withObject:nil];
@@ -137,7 +132,7 @@ SearchManager *_sm;
         break;
     }
     case 'R': {
-        [messageViewer performSelector:@selector(checkNewMail:) withObject:nil];
+        [messageViewer performSelector:@selector(replyAllMessage:) withObject:nil];
         break;
     }
     case 'r': {
