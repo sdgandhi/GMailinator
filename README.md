@@ -1,9 +1,12 @@
 # GMailinator
 
-Adds Gmail-esque keyboard shorcuts to Mail.app.  This is still very much a work
-in progress.
+[Forked from nompute/GMailinator](https://github.com/nompute/GMailinator)
 
-Tested with Mail for OS X Cataina.
+Adds Gmail-esque keyboard shorcuts to Mail.app. This is still very much a work in progress.
+
+~Tested with Mail for OS X Catalina.~
+
+This version has been updated to work with macOS Montery / Mail 15 and there's now a shell script that covers _some_ of the deployment steps.
 
 ## Supported Shortcuts
 
