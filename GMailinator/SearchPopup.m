@@ -95,7 +95,7 @@ NSInteger compareMatch(id l_row, id r_row, void *query) {
 
 - (IBAction)doSearch:sender {
     NSString *searchString = [searchField stringValue];
-
+    // NSLog(@"Searching for '%@'", searchString);
     // Clear all previous results.
     [currentResults removeAllObjects];
 
